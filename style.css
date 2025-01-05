@@ -1,0 +1,109 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+@font-face {
+  font-family: 'InterRegular';
+  src: url('assets/fonts/static/Inter-Regular.ttf') format('truetype');
+}
+
+body{
+   background-color: hsl(0, 0%, 8%);
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: InterRegular, Sans-Serif;
+}
+
+.box{
+   background-color: hsl(0, 0%, 12%);
+   width: 375px;
+   display: flex;
+   justify-content: center;
+   align-self: center;
+   border-radius: 10px;
+}
+
+.box2{
+   width: 90%;
+   display: flex;
+   height: 680px;
+   align-items: center;
+   flex-direction: column;
+}
+
+.perfil{
+   width: 100%;
+   height: 25%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.perfil img{
+   width: 100px;
+   border-radius: 100%;
+}
+
+.name{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.name h2{
+   color: hsl(0, 0%, 100%);
+}
+
+.name h3{
+   color: hsl(75, 94%, 57%);
+   font-size: 14px;;
+}
+
+.profession{
+   width: 100%;
+   height: 13%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.profession p{
+   color: hsl(0, 0%, 100%);
+   font-size: 13px;
+}
+
+.cx{
+   width: 90%;
+   height: 50px;
+   
+}
+
+.cx a{
+   text-decoration: none;
+}
+
+.cx a button{
+   background-color: hsl(0, 0%, 20%);
+   color: hsl(0, 0%, 100%);
+   width: 100%;
+   height: 100%;
+   border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   font-size: 14px;
+   cursor: pointer;
+}
+
+.cx a button:hover{
+   transition: 0.5s;
+   background-color: hsl(75, 94%, 57%);
+   color: black;
+}
